@@ -1,0 +1,60 @@
+@CHARSET "UTF-8";
+
+input {
+}
+
+input[name="btn"] ,input[name="btnParam"],input[name="btnSqrt"],input[name="btnProcent"],input[name="btnClear"],input[name="btnDot"],input[name="btnSign"] {
+	width:50px;
+	height: 50px;	
+	background-color:#E6E6E6;
+	-webkit-box-shadow:rgba(0,0,0,0.2) 0 1px 0 0;
+	-moz-box-shadow:rgba(0,0,0,0.2) 0 1px 0 0;
+	box-shadow:rgba(0,0,0,0.2) 0 1px 0 0;
+	border:0px solid;
+	font-size:14px;
+}
+
+input[name="btnResult"]{
+	width:50px;
+	height: 100px;	
+	background-color:#E6E6E6;
+	-webkit-box-shadow:rgba(0,0,0,0.2) 0 1px 0 0;
+	-moz-box-shadow:rgba(0,0,0,0.2) 0 1px 0 0;
+	box-shadow:rgba(0,0,0,0.2) 0 1px 0 0;
+	border:0px solid;
+	font-size:14px;
+}
+
+input[name="result"]{
+	width:206px;
+	height: 50px;	
+	background-color:#F2F2F2;
+	-webkit-box-shadow:rgba(0,0,0,0.2) 0 1px 0 0;
+	-moz-box-shadow:rgba(0,0,0,0.2) 0 1px 0 0;
+	box-shadow:rgba(0,0,0,0.2) 0 1px 0 0;
+	border:0px solid;
+	font-weight: bold;
+	font-size:18px;
+    text-align: right;
+	
+}
+
+input:hover[name="btn"],input:hover[name="btnParam"],input:hover[name="btnSqrt"],input:hover[name="btnProcent"],input:hover[name="btnClear"],input:hover[name="btnDot"],input:hover[name="btnSign"],input:hover[name="btnResult"]{
+	background-color: #CFCFCF;
+}
+
+input:active[name="btn"],input:active[name="btnParam"],input:active[name="btnSqrt"],input:active[name="btnProcent"],input:active[name="btnClear"],input:active[name="btnProcent"],input:active[name="btnDot"],input:active[name="btnSign"],input:active[name="btnResult"]{
+	background-color: #B8B8B8;
+	border:0px solid;
+	
+}
+
+table {
+    border-collapse: seperate;
+    border-spacing: 0px 0px;
+    
+}
+td {
+}
+
+
